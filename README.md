@@ -76,6 +76,11 @@ grunt freeze
 3. Run `grunt build` to download translations
 4. Add the languages you want to support to `AVAILABLE_LANGUAGES` in **counterwallet.conf.json** - you can use **counterwallet.conf.json.example** as a template. The template file contains **only** the setting relevant to languages and does not replace the rest of variables required in that file (refer to Federeated Node documentation for additional details about `counterwallet.conf`).
 
+Tests
+-----------------------------------------
+
+After building you may open test/test.html with a browser.
+
 Setting up your own Counterwallet Server
 -----------------------------------------
 
