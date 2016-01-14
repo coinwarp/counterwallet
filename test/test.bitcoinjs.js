@@ -50,9 +50,9 @@ for (var network in fixtures) {
     });
 
     it('Should correctly validate address', function() {
-      CWBitcore.isValidAddress(data.addresses[0]).should.equal.true;
+      CWBitcore.isValidAddress(data.addresses[0]).should.equal(true);
       var badAddress = data.addresses[0].replace(/u/g, "v");
-      CWBitcore.isValidAddress(badAddress).should.equal.false;
+      CWBitcore.isValidAddress(badAddress).should.equal(false);
     });
 
   });
